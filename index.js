@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 const passport = require('passport');
-const cors = require('cors';)
+const cors = require('cors');
 
 const {DATABASE_URL, PORT, JWT_SECRET, JWT_EXPIRY} = require('./config');
 // const {router: usersRouter} = require('./users');
