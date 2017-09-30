@@ -20,7 +20,7 @@ const app = express();
 mongoose.Promise = global.Promise;
 
 // Set /public directory as static web server
-app.use(express.static('client/public'));
+//app.use(express.static('client/public'));
 app.use(morgan('common'));
 app.use(bodyParser.json());
 
