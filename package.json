@@ -4,7 +4,8 @@
   "description": "Server",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,14 @@
   "homepage": "https://github.com/ZipClips/newco#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "chai-http": "^3.0.0",
     "express": "^4.16.1",
+    "mocha": "^3.5.3",
     "mongoose": "^4.11.13",
     "morgan": "^1.9.0"
+  },
+  "dev-dependencies": {
+    "start": "node server.js",
+    "test": "mocha"
   }
 }
