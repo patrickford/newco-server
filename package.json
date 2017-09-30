@@ -1,0 +1,29 @@
+{
+  "name": "newco",
+  "version": "0.1.0",
+  "description": "Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZipClips/newco.git"
+  },
+  "keywords": [
+    "social",
+    "video"
+  ],
+  "author": "Patrick Ford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZipClips/newco/issues"
+  },
+  "homepage": "https://github.com/ZipClips/newco#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "mongoose": "^4.11.13",
+    "morgan": "^1.9.0"
+  }
+}
