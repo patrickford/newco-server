@@ -78,7 +78,7 @@ function closeServer() {
 }
 
 app.use('*', function(req, res) {
-  res.status(404).json({message: 'Not Found, you idiot'});
+  res.status(404).json({message: 'Not Found'});
 });
 
 // if server.js is called directly (aka, with `node server.js`), this block
