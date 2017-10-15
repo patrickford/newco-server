@@ -18,7 +18,7 @@ describe('Newco Server Unit Tests', function(){
     return closeServer();
   });
 
-  it('List all post on GET', function(){
+  it('Verify server with Hello World on GET', function(){
     return chai.request(app)
     .get('/')
     .then(function(res){
