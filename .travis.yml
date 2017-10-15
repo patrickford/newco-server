@@ -9,6 +9,3 @@ deploy:
   app: glacial-falls-98194
   on:
     repo: ZipClips/newco-server
-
-
-mongodb://heroku_4f2b05s8:lo532og27je4ob5ciprbk0th5l@ds113795.mlab.com:13795/heroku_4f2b05s8
