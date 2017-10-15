@@ -22,13 +22,17 @@
   },
   "homepage": "https://github.com/ZipClips/newco#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "dotenv": "^4.0.0",
     "express": "^4.16.1",
+    "jsonwebtoken": "^8.1.0",
     "mongoose": "^4.11.13",
     "morgan": "^1.9.0",
-    "passport": "^0.4.0"
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^3.0.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
