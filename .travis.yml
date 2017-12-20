@@ -2,11 +2,4 @@ language: node_js
 node_js: node
 services:
 - mongodb
-deploy:
-  provider: heroku
-  api_key:
-    secure: RiyGCz7OV7Zq9Y2KXFOvuQe/DbOtxNfL6UGICxj85l7jcGg3K4v/2eWUUM88I3OBDAwNYA8XEThfUNWOTjreyg9eyIeRGi8ZroxPAVDgnT2gCd4cmIRto6oTgKxUNW6PMIIszHNlRLyZ40zj2ZPEEZ5SFP1ZJdW1LUI7f8lYHUHzHRz83RLIhGENrbqsoNIDx/dK9Ljnc0hjyQgEsj7mHsuYlCgdxKLK9wt4r3vSJtVRebpLO8YP/xAwORGODzcvNJ5ssKlr692d/vWYRRHHLGYfeF6PP8S46ottW1kr6sUHryBMdk1p/t8CbxzWn79kA7ZQEBjbFhTEPegql4PQScW+ugwpxhRq55tJuR88tr+9wcW3wLKyj0OCNSdr2yP8iCW0Ww16xJZvEMu3zfkGezTSnPJLYGX18wZSOMeW7aU8/SUOK892vJE1VNS6I/F44ZfCrK5MoCztia8D0ZopAjTYn4zj3dTWPcpqCA0jnStHmYEiK65T3eFxfGHEvU6P8h6pDmljloY1+GG4VIMD5tlLMYi9bGgX2sUIBMCAJ0cVhgQ5wMQ+Bc9RSjLmYPnOJx35sueO2k3dvQ2KzGZSTcev0WbkttR1KHz5VRMNJ7yPvthxAEAcRcktFPJV501SuFD+vrJU167lckCGMQShdspu2wP2DT2SGp0YDlzIsYQ=
-  app: glacial-falls-98194
-  skip_cleanup: true
-  on:
-    repo: ZipClips/newco-server
+
